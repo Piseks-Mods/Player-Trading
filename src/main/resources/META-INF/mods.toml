@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+
+[[mods]]
+modId="piseks_player_trading"
+version="1.0"
+displayName="Pisek's Player Trading"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Písek Pískovec"
+
+[[dependencies.piseks_player_trading]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
