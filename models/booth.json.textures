@@ -1,0 +1,85 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "spruce_planks",
+        "2": "mini_chest",
+        "3": "red_wool",
+        "4": "green_wool"
+      },
+      "name": "default"
+    },
+    "crimson_warped": {
+      "map": {
+        "1": "spruce_planks",
+        "2": "mini_chest",
+        "3": "crimson_planks",
+        "4": "warped_planks"
+      },
+      "name": "crimson_warped"
+    },
+    "gray_brown": {
+      "map": {
+        "1": "spruce_planks",
+        "2": "mini_chest",
+        "3": "gray_wool",
+        "4": "brown_wool"
+      },
+      "name": "gray_brown"
+    },
+    "blue_pink": {
+      "map": {
+        "1": "spruce_planks",
+        "2": "mini_chest",
+        "3": "blue_wool",
+        "4": "pink_wool"
+      },
+      "name": "blue_pink"
+    },
+    "green_white": {
+      "map": {
+        "1": "spruce_planks",
+        "2": "mini_chest",
+        "3": "green_wool",
+        "4": "white_wool"
+      },
+      "name": "green_white"
+    },
+    "red_green": {
+      "map": {
+        "1": "",
+        "2": "",
+        "3": "",
+        "4": ""
+      },
+      "name": "red_green"
+    },
+    "blue_black": {
+      "map": {
+        "1": "spruce_planks",
+        "2": "mini_chest",
+        "3": "blue_wool",
+        "4": "black_wool"
+      },
+      "name": "blue_black"
+    },
+    "lime_pink": {
+      "map": {
+        "1": "spruce_planks",
+        "2": "mini_chest",
+        "3": "lime_wool",
+        "4": "pink_wool"
+      },
+      "name": "lime_pink"
+    },
+    "blue_lightblue": {
+      "map": {
+        "1": "spruce_planks",
+        "2": "mini_chest",
+        "3": "blue_wool",
+        "4": "light_blue_wool"
+      },
+      "name": "blue_lightblue"
+    }
+  }
+}

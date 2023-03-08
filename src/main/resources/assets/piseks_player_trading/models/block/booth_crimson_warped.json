@@ -1,0 +1,11 @@
+{
+  "parent": "piseks_player_trading:custom/booth",
+  "textures": {
+    "all": "piseks_player_trading:blocks/spruce_planks",
+    "particle": "piseks_player_trading:blocks/spruce_planks",
+    "1": "piseks_player_trading:blocks/spruce_planks",
+    "2": "piseks_player_trading:blocks/mini_chest",
+    "3": "piseks_player_trading:blocks/crimson_planks",
+    "4": "piseks_player_trading:blocks/warped_planks"
+  }
+}

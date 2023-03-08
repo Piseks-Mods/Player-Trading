@@ -1,9 +1,20 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BoothCrimsonWarped",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booth_crimson_warped"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.piseks_player_trading.booth_crimson_warped": "Booth (Crimson, Warped)"
+    }
   },
   "foldersRoot": {
     "name": "~",
