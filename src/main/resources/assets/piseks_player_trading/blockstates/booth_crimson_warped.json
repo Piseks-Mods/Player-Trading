@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "piseks_player_trading:block/booth_crimson_warped"
+    },
+    "facing=east": {
+      "model": "piseks_player_trading:block/booth_crimson_warped",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "piseks_player_trading:block/booth_crimson_warped",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "piseks_player_trading:block/booth_crimson_warped",
+      "y": 270
     }
   }
 }

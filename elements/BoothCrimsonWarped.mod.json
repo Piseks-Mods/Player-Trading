@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "booth:crimson_warped",
-    "rotationMode": 0,
+    "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -51,12 +51,12 @@
         "subtract": false
       },
       {
-        "mx": -16.0,
+        "mx": 0.0,
         "my": 30.0,
-        "mz": -8.0,
-        "Mx": 32.0,
+        "mz": 0.0,
+        "Mx": 16.0,
         "My": 32.0,
-        "Mz": 8.0,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
@@ -150,6 +150,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onBlockPlayedBy": {
+      "name": "BoothPlacement"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
