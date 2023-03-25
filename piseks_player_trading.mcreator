@@ -87,12 +87,60 @@
           }
         ]
       }
+    },
+    {
+      "name": "OwnerStickChange",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "owner_stick_change",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OwnerStick",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "owner_stick"
+    },
+    {
+      "name": "BuyerGuiTrade",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyer_gui_trade",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.piseks_player_trading.owner_stick": "Owner Stick",
       "block.piseks_player_trading.booth_crimson_warped": "Booth (Crimson, Warped)"
     }
   },

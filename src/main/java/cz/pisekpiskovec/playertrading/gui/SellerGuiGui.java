@@ -121,58 +121,30 @@ public class SellerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 12) {
 			}));
 			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
 			}));
 			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 12) {
 			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 43, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 61, 12) {
 			}));
 			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 61, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
 			}));
 			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 79, 12) {
 			}));
 			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 79, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
 			}));
 			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 97, 12) {
 			}));
 			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 97, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
 			}));
 			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 12) {
 			}));
 			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 115, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
 			}));
 			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 133, 12) {
 			}));
 			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 133, 48) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
 			}));
 			int si;
 			int sj;
@@ -313,10 +285,34 @@ public class SellerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 			if (!bound && (playerIn instanceof ServerPlayerEntity)) {
 				if (!playerIn.isAlive() || playerIn instanceof ServerPlayerEntity && ((ServerPlayerEntity) playerIn).hasDisconnected()) {
 					for (int j = 0; j < internal.getSlots(); ++j) {
+						if (j == 1)
+							continue;
+						if (j == 3)
+							continue;
+						if (j == 5)
+							continue;
+						if (j == 7)
+							continue;
+						if (j == 9)
+							continue;
+						if (j == 13)
+							continue;
 						playerIn.dropItem(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 					}
 				} else {
 					for (int i = 0; i < internal.getSlots(); ++i) {
+						if (i == 1)
+							continue;
+						if (i == 3)
+							continue;
+						if (i == 5)
+							continue;
+						if (i == 7)
+							continue;
+						if (i == 9)
+							continue;
+						if (i == 13)
+							continue;
 						playerIn.inventory.placeItemBackInInventory(playerIn.world,
 								internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
 					}

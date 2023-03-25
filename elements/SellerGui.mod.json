@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 33,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -25,11 +25,14 @@
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 1,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #1",
           "x": 150,
           "y": 84
@@ -50,11 +53,14 @@
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 3,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #3",
           "x": 168,
           "y": 84
@@ -75,11 +81,14 @@
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 5,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #5",
           "x": 186,
           "y": 84
@@ -100,11 +109,14 @@
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 7,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #7",
           "x": 204,
           "y": 84
@@ -125,11 +137,14 @@
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 9,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #9",
           "x": 222,
           "y": 84
@@ -150,8 +165,11 @@
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 11,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
@@ -175,11 +193,14 @@
         }
       },
       {
-        "type": "outputslot",
+        "type": "inputslot",
         "data": {
+          "inputLimit": {
+            "value": ""
+          },
           "id": 13,
           "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #13",
           "x": 258,
           "y": 84

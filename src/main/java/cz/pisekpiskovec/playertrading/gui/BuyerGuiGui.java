@@ -118,7 +118,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, -1) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 8) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -129,15 +129,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 16) {
-			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 25, 52) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 70) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 80) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -148,7 +140,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, -1) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 8) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -159,15 +151,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 43, 16) {
-			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 43, 52) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 43, 70) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 43, 80) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -178,7 +162,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 61, -1) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 61, 8) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -189,15 +173,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 61, 16) {
-			}));
-			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 61, 52) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 61, 70) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 61, 80) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -208,7 +184,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 79, -1) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 79, 8) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -219,15 +195,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 79, 16) {
-			}));
-			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 79, 52) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 79, 70) {
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 79, 80) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -238,7 +206,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 97, -1) {
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 97, 8) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -249,15 +217,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 97, 16) {
-			}));
-			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 97, 52) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 97, 70) {
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 97, 80) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -268,7 +228,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 115, -1) {
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 115, 8) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -279,15 +239,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 115, 16) {
-			}));
-			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 115, 52) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 115, 70) {
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 115, 80) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -298,7 +250,7 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 133, -1) {
+			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 133, 8) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
@@ -309,20 +261,68 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					return false;
 				}
 			}));
-			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 133, 16) {
-			}));
-			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 133, 52) {
-				@Override
-				public boolean isItemValid(ItemStack stack) {
-					return false;
-				}
-			}));
-			this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 133, 70) {
+			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 133, 80) {
 				@Override
 				public boolean canTakeStack(PlayerEntity player) {
 					return false;
 				}
 
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 25, 26) {
+			}));
+			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 25, 62) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 43, 26) {
+			}));
+			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 43, 62) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 61, 26) {
+			}));
+			this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 61, 62) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 79, 26) {
+			}));
+			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 79, 62) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 97, 26) {
+			}));
+			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 97, 62) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 115, 26) {
+			}));
+			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 115, 62) {
+				@Override
+				public boolean isItemValid(ItemStack stack) {
+					return false;
+				}
+			}));
+			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 133, 26) {
+			}));
+			this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 133, 62) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -332,9 +332,9 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 10 + 84 + si * 18));
+					this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 27 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 10 + 142));
+				this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 27 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -469,29 +469,43 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					for (int j = 0; j < internal.getSlots(); ++j) {
 						if (j == 0)
 							continue;
+						if (j == 1)
+							continue;
+						if (j == 2)
+							continue;
 						if (j == 3)
 							continue;
 						if (j == 4)
+							continue;
+						if (j == 5)
+							continue;
+						if (j == 6)
 							continue;
 						if (j == 7)
 							continue;
 						if (j == 8)
 							continue;
+						if (j == 9)
+							continue;
+						if (j == 10)
+							continue;
 						if (j == 11)
 							continue;
 						if (j == 12)
 							continue;
+						if (j == 13)
+							continue;
 						if (j == 15)
 							continue;
-						if (j == 16)
+						if (j == 17)
 							continue;
 						if (j == 19)
 							continue;
-						if (j == 20)
+						if (j == 21)
 							continue;
 						if (j == 23)
 							continue;
-						if (j == 24)
+						if (j == 25)
 							continue;
 						if (j == 27)
 							continue;
@@ -501,29 +515,43 @@ public class BuyerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 					for (int i = 0; i < internal.getSlots(); ++i) {
 						if (i == 0)
 							continue;
+						if (i == 1)
+							continue;
+						if (i == 2)
+							continue;
 						if (i == 3)
 							continue;
 						if (i == 4)
+							continue;
+						if (i == 5)
+							continue;
+						if (i == 6)
 							continue;
 						if (i == 7)
 							continue;
 						if (i == 8)
 							continue;
+						if (i == 9)
+							continue;
+						if (i == 10)
+							continue;
 						if (i == 11)
 							continue;
 						if (i == 12)
 							continue;
+						if (i == 13)
+							continue;
 						if (i == 15)
 							continue;
-						if (i == 16)
+						if (i == 17)
 							continue;
 						if (i == 19)
 							continue;
-						if (i == 20)
+						if (i == 21)
 							continue;
 						if (i == 23)
 							continue;
-						if (i == 24)
+						if (i == 25)
 							continue;
 						if (i == 27)
 							continue;

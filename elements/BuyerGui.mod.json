@@ -4,9 +4,9 @@
   "definition": {
     "type": 1,
     "width": 176,
-    "height": 175,
+    "height": 195,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": 6,
+    "inventoryOffsetY": 13,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
@@ -25,28 +25,28 @@
         }
       },
       {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #1",
+          "x": 150,
+          "y": 102
+        }
+      },
+      {
         "type": "inputslot",
         "data": {
           "inputLimit": {
             "value": ""
           },
-          "id": 1,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
-          "x": 150,
-          "y": 48
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 2,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #2",
-          "x": 150,
-          "y": 84
+          "x": 168,
+          "y": 30
         }
       },
       {
@@ -56,7 +56,7 @@
           "disableStackInteraction": true,
           "dropItemsWhenNotBound": false,
           "name": "Slot #3",
-          "x": 150,
+          "x": 168,
           "y": 102
         }
       },
@@ -70,8 +70,19 @@
           "disableStackInteraction": true,
           "dropItemsWhenNotBound": false,
           "name": "Slot #4",
-          "x": 168,
+          "x": 186,
           "y": 30
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #5",
+          "x": 186,
+          "y": 102
         }
       },
       {
@@ -80,23 +91,12 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 5,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #5",
-          "x": 168,
-          "y": 48
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 6,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #6",
-          "x": 168,
-          "y": 84
+          "x": 204,
+          "y": 30
         }
       },
       {
@@ -106,7 +106,7 @@
           "disableStackInteraction": true,
           "dropItemsWhenNotBound": false,
           "name": "Slot #7",
-          "x": 168,
+          "x": 204,
           "y": 102
         }
       },
@@ -120,8 +120,19 @@
           "disableStackInteraction": true,
           "dropItemsWhenNotBound": false,
           "name": "Slot #8",
-          "x": 186,
+          "x": 222,
           "y": 30
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #9",
+          "x": 222,
+          "y": 102
         }
       },
       {
@@ -130,23 +141,12 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 9,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #9",
-          "x": 186,
-          "y": 48
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 10,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
           "name": "Slot #10",
-          "x": 186,
-          "y": 84
+          "x": 240,
+          "y": 30
         }
       },
       {
@@ -156,7 +156,7 @@
           "disableStackInteraction": true,
           "dropItemsWhenNotBound": false,
           "name": "Slot #11",
-          "x": 186,
+          "x": 240,
           "y": 102
         }
       },
@@ -170,8 +170,19 @@
           "disableStackInteraction": true,
           "dropItemsWhenNotBound": false,
           "name": "Slot #12",
-          "x": 204,
+          "x": 258,
           "y": 30
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 13,
+          "disableStackInteraction": true,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #13",
+          "x": 258,
+          "y": 102
         }
       },
       {
@@ -180,34 +191,23 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 13,
+          "id": 14,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #13",
-          "x": 204,
+          "name": "Slot #14",
+          "x": 150,
           "y": 48
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "id": 14,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #14",
-          "x": 204,
-          "y": 84
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 15,
-          "disableStackInteraction": true,
+          "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "name": "Slot #15",
-          "x": 204,
-          "y": 102
+          "x": 150,
+          "y": 84
         }
       },
       {
@@ -217,11 +217,22 @@
             "value": ""
           },
           "id": 16,
-          "disableStackInteraction": true,
-          "dropItemsWhenNotBound": false,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #16",
-          "x": 222,
-          "y": 30
+          "x": 168,
+          "y": 48
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 17,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #17",
+          "x": 168,
+          "y": 84
         }
       },
       {
@@ -230,34 +241,23 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 17,
+          "id": 18,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #17",
-          "x": 222,
+          "name": "Slot #18",
+          "x": 186,
           "y": 48
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "id": 18,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #18",
-          "x": 222,
-          "y": 84
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 19,
-          "disableStackInteraction": true,
+          "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "name": "Slot #19",
-          "x": 222,
-          "y": 102
+          "x": 186,
+          "y": 84
         }
       },
       {
@@ -267,11 +267,22 @@
             "value": ""
           },
           "id": 20,
-          "disableStackInteraction": true,
-          "dropItemsWhenNotBound": false,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #20",
-          "x": 240,
-          "y": 30
+          "x": 204,
+          "y": 48
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 21,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #21",
+          "x": 204,
+          "y": 84
         }
       },
       {
@@ -280,34 +291,23 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 21,
+          "id": 22,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #21",
-          "x": 240,
+          "name": "Slot #22",
+          "x": 222,
           "y": 48
         }
       },
       {
         "type": "outputslot",
         "data": {
-          "id": 22,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #22",
-          "x": 240,
-          "y": 84
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 23,
-          "disableStackInteraction": true,
+          "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "name": "Slot #23",
-          "x": 240,
-          "y": 102
+          "x": 222,
+          "y": 84
         }
       },
       {
@@ -317,11 +317,22 @@
             "value": ""
           },
           "id": 24,
-          "disableStackInteraction": true,
-          "dropItemsWhenNotBound": false,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
           "name": "Slot #24",
-          "x": 258,
-          "y": 30
+          "x": 240,
+          "y": 48
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 25,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #25",
+          "x": 240,
+          "y": 84
         }
       },
       {
@@ -330,10 +341,10 @@
           "inputLimit": {
             "value": ""
           },
-          "id": 25,
+          "id": 26,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
-          "name": "Slot #25",
+          "name": "Slot #26",
           "x": 258,
           "y": 48
         }
@@ -341,23 +352,12 @@
       {
         "type": "outputslot",
         "data": {
-          "id": 26,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #26",
-          "x": 258,
-          "y": 84
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
           "id": 27,
-          "disableStackInteraction": true,
+          "disableStackInteraction": false,
           "dropItemsWhenNotBound": false,
           "name": "Slot #27",
           "x": 258,
-          "y": 102
+          "y": 84
         }
       }
     ],

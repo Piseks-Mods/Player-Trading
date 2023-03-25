@@ -32,7 +32,7 @@ public class BuyerGuiGuiWindow extends ContainerScreen<BuyerGuiGui.GuiContainerM
 		this.z = container.z;
 		this.entity = container.entity;
 		this.xSize = 176;
-		this.ySize = 175;
+		this.ySize = 195;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("piseks_player_trading:textures/screens/buyer_gui.png");
