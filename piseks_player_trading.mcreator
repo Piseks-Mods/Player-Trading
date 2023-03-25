@@ -9,14 +9,66 @@
       "registry_name": "booth_crimson_warped"
     },
     {
-      "name": "BoothPlacement",
-      "type": "procedure",
-      "sortid": 3,
+      "name": "SellerGui",
+      "type": "gui",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "booth_placement",
+      "registry_name": "seller_gui"
+    },
+    {
+      "name": "BoothRightClick",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booth_right_click",
       "metadata": {
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BuyerGui",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buyer_gui"
+    },
+    {
+      "name": "BoothPlacedBy",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "booth_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
