@@ -248,7 +248,7 @@ public class BoothCrimsonWarpedBlock extends PiseksPlayerTradingModElements.ModE
 	}
 
 	public static class CustomTileEntity extends LockableLootTileEntity implements ISidedInventory {
-		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(28, ItemStack.EMPTY);
+		private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(42, ItemStack.EMPTY);
 
 		protected CustomTileEntity() {
 			super(tileEntityType);

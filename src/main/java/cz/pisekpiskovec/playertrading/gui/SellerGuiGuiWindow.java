@@ -31,7 +31,7 @@ public class SellerGuiGuiWindow extends ContainerScreen<SellerGuiGui.GuiContaine
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.xSize = 176;
+		this.xSize = 284;
 		this.ySize = 166;
 	}
 
@@ -72,6 +72,8 @@ public class SellerGuiGuiWindow extends ContainerScreen<SellerGuiGui.GuiContaine
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
+		this.font.drawString(ms, "Earning", 6, 137, -12829636);
+		this.font.drawString(ms, "Stock", 240, 137, -12829636);
 	}
 
 	@Override
