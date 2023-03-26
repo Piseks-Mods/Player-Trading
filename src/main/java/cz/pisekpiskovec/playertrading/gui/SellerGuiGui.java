@@ -80,7 +80,7 @@ public class SellerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(42);
+			this.internal = new ItemStackHandler(56);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -146,61 +146,61 @@ public class SellerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 			}));
 			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 187, 48) {
 			}));
-			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 7, 12) {
+			this.customSlots.put(28, this.addSlot(new SlotItemHandler(internal, 28, 7, 12) {
 			}));
-			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 25, 12) {
+			this.customSlots.put(29, this.addSlot(new SlotItemHandler(internal, 29, 25, 12) {
 			}));
-			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 7, 30) {
+			this.customSlots.put(30, this.addSlot(new SlotItemHandler(internal, 30, 7, 30) {
 			}));
-			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 25, 30) {
+			this.customSlots.put(31, this.addSlot(new SlotItemHandler(internal, 31, 25, 30) {
 			}));
-			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 7, 48) {
+			this.customSlots.put(32, this.addSlot(new SlotItemHandler(internal, 32, 7, 48) {
 			}));
-			this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 25, 48) {
+			this.customSlots.put(33, this.addSlot(new SlotItemHandler(internal, 33, 25, 48) {
 			}));
-			this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 7, 66) {
+			this.customSlots.put(34, this.addSlot(new SlotItemHandler(internal, 34, 7, 66) {
 			}));
-			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 25, 66) {
+			this.customSlots.put(35, this.addSlot(new SlotItemHandler(internal, 35, 25, 66) {
 			}));
-			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 7, 84) {
+			this.customSlots.put(36, this.addSlot(new SlotItemHandler(internal, 36, 7, 84) {
 			}));
-			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 25, 84) {
+			this.customSlots.put(37, this.addSlot(new SlotItemHandler(internal, 37, 25, 84) {
 			}));
-			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 7, 102) {
+			this.customSlots.put(38, this.addSlot(new SlotItemHandler(internal, 38, 7, 102) {
 			}));
-			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 25, 102) {
+			this.customSlots.put(39, this.addSlot(new SlotItemHandler(internal, 39, 25, 102) {
 			}));
-			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 7, 120) {
+			this.customSlots.put(40, this.addSlot(new SlotItemHandler(internal, 40, 7, 120) {
 			}));
-			this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 25, 120) {
+			this.customSlots.put(41, this.addSlot(new SlotItemHandler(internal, 41, 25, 120) {
 			}));
-			this.customSlots.put(28, this.addSlot(new SlotItemHandler(internal, 28, 241, 12) {
+			this.customSlots.put(42, this.addSlot(new SlotItemHandler(internal, 42, 241, 12) {
 			}));
-			this.customSlots.put(29, this.addSlot(new SlotItemHandler(internal, 29, 259, 12) {
+			this.customSlots.put(43, this.addSlot(new SlotItemHandler(internal, 43, 259, 12) {
 			}));
-			this.customSlots.put(30, this.addSlot(new SlotItemHandler(internal, 30, 241, 30) {
+			this.customSlots.put(44, this.addSlot(new SlotItemHandler(internal, 44, 241, 30) {
 			}));
-			this.customSlots.put(31, this.addSlot(new SlotItemHandler(internal, 31, 259, 30) {
+			this.customSlots.put(45, this.addSlot(new SlotItemHandler(internal, 45, 259, 30) {
 			}));
-			this.customSlots.put(32, this.addSlot(new SlotItemHandler(internal, 32, 241, 48) {
+			this.customSlots.put(46, this.addSlot(new SlotItemHandler(internal, 46, 241, 48) {
 			}));
-			this.customSlots.put(33, this.addSlot(new SlotItemHandler(internal, 33, 259, 48) {
+			this.customSlots.put(47, this.addSlot(new SlotItemHandler(internal, 47, 259, 48) {
 			}));
-			this.customSlots.put(34, this.addSlot(new SlotItemHandler(internal, 34, 241, 66) {
+			this.customSlots.put(48, this.addSlot(new SlotItemHandler(internal, 48, 241, 66) {
 			}));
-			this.customSlots.put(35, this.addSlot(new SlotItemHandler(internal, 35, 259, 66) {
+			this.customSlots.put(49, this.addSlot(new SlotItemHandler(internal, 49, 259, 66) {
 			}));
-			this.customSlots.put(36, this.addSlot(new SlotItemHandler(internal, 36, 241, 84) {
+			this.customSlots.put(50, this.addSlot(new SlotItemHandler(internal, 50, 241, 84) {
 			}));
-			this.customSlots.put(37, this.addSlot(new SlotItemHandler(internal, 37, 259, 84) {
+			this.customSlots.put(51, this.addSlot(new SlotItemHandler(internal, 51, 259, 84) {
 			}));
-			this.customSlots.put(38, this.addSlot(new SlotItemHandler(internal, 38, 241, 102) {
+			this.customSlots.put(52, this.addSlot(new SlotItemHandler(internal, 52, 241, 102) {
 			}));
-			this.customSlots.put(39, this.addSlot(new SlotItemHandler(internal, 39, 259, 102) {
+			this.customSlots.put(53, this.addSlot(new SlotItemHandler(internal, 53, 259, 102) {
 			}));
-			this.customSlots.put(40, this.addSlot(new SlotItemHandler(internal, 40, 241, 120) {
+			this.customSlots.put(54, this.addSlot(new SlotItemHandler(internal, 54, 241, 120) {
 			}));
-			this.customSlots.put(41, this.addSlot(new SlotItemHandler(internal, 41, 259, 120) {
+			this.customSlots.put(55, this.addSlot(new SlotItemHandler(internal, 55, 259, 120) {
 			}));
 			int si;
 			int sj;
@@ -353,34 +353,6 @@ public class SellerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 							continue;
 						if (j == 13)
 							continue;
-						if (j == 14)
-							continue;
-						if (j == 15)
-							continue;
-						if (j == 16)
-							continue;
-						if (j == 17)
-							continue;
-						if (j == 18)
-							continue;
-						if (j == 19)
-							continue;
-						if (j == 20)
-							continue;
-						if (j == 21)
-							continue;
-						if (j == 22)
-							continue;
-						if (j == 23)
-							continue;
-						if (j == 24)
-							continue;
-						if (j == 25)
-							continue;
-						if (j == 26)
-							continue;
-						if (j == 27)
-							continue;
 						if (j == 28)
 							continue;
 						if (j == 29)
@@ -409,6 +381,34 @@ public class SellerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 							continue;
 						if (j == 41)
 							continue;
+						if (j == 42)
+							continue;
+						if (j == 43)
+							continue;
+						if (j == 44)
+							continue;
+						if (j == 45)
+							continue;
+						if (j == 46)
+							continue;
+						if (j == 47)
+							continue;
+						if (j == 48)
+							continue;
+						if (j == 49)
+							continue;
+						if (j == 50)
+							continue;
+						if (j == 51)
+							continue;
+						if (j == 52)
+							continue;
+						if (j == 53)
+							continue;
+						if (j == 54)
+							continue;
+						if (j == 55)
+							continue;
 						playerIn.dropItem(internal.extractItem(j, internal.getStackInSlot(j).getCount(), false), false);
 					}
 				} else {
@@ -424,34 +424,6 @@ public class SellerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 						if (i == 9)
 							continue;
 						if (i == 13)
-							continue;
-						if (i == 14)
-							continue;
-						if (i == 15)
-							continue;
-						if (i == 16)
-							continue;
-						if (i == 17)
-							continue;
-						if (i == 18)
-							continue;
-						if (i == 19)
-							continue;
-						if (i == 20)
-							continue;
-						if (i == 21)
-							continue;
-						if (i == 22)
-							continue;
-						if (i == 23)
-							continue;
-						if (i == 24)
-							continue;
-						if (i == 25)
-							continue;
-						if (i == 26)
-							continue;
-						if (i == 27)
 							continue;
 						if (i == 28)
 							continue;
@@ -480,6 +452,34 @@ public class SellerGuiGui extends PiseksPlayerTradingModElements.ModElement {
 						if (i == 40)
 							continue;
 						if (i == 41)
+							continue;
+						if (i == 42)
+							continue;
+						if (i == 43)
+							continue;
+						if (i == 44)
+							continue;
+						if (i == 45)
+							continue;
+						if (i == 46)
+							continue;
+						if (i == 47)
+							continue;
+						if (i == 48)
+							continue;
+						if (i == 49)
+							continue;
+						if (i == 50)
+							continue;
+						if (i == 51)
+							continue;
+						if (i == 52)
+							continue;
+						if (i == 53)
+							continue;
+						if (i == 54)
+							continue;
+						if (i == 55)
 							continue;
 						playerIn.inventory.placeItemBackInInventory(playerIn.world,
 								internal.extractItem(i, internal.getStackInSlot(i).getCount(), false));
